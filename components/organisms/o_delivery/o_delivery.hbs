@@ -1,0 +1,13 @@
+<section class="o_delivery grid"
+	{{#if section_id}}
+	 id="{{section_id}}"
+	{{/if}}>
+	{{> m_section_title }}
+	{{#each items}}
+	<div class="item col-4">
+		{{> a_icon }}
+		{{> a_h3 a_icon=false }}
+		{{> a_description }}
+	</div>
+	{{/each}}
+</section>

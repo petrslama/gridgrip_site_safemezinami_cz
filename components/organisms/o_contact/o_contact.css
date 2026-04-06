@@ -1,0 +1,109 @@
+.o_contact {
+	padding-block: 5rem;
+
+	@media (min-width: 69rem) {
+		padding-block: 8rem;
+	}
+}
+
+.o_contact__card {
+	background-color: var(--color_primary-hover);
+	padding: 4rem 2rem;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+
+	@media (min-width: 48rem) {
+		padding: 5rem 3rem;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: -30%;
+		right: -10%;
+		width: 50%;
+		height: 100%;
+		background: radial-gradient(ellipse, rgba(255, 255, 255, .06) 0%, transparent 70%);
+		border-radius: 50%;
+		pointer-events: none;
+	}
+
+	.a_eyebrow {
+		color: rgba(255, 255, 255, .6);
+		margin-bottom: 1rem;
+	}
+
+	.a_h2 {
+		color: #fff;
+		font-style: italic;
+		margin-bottom: 1rem;
+	}
+
+	.a_description {
+		color: rgba(255, 255, 255, .7);
+		max-width: 44ch;
+		margin: 0 auto 2.5rem;
+	}
+
+	.o_contact__people {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+
+		@media (min-width: 48rem) {
+			flex-direction: row;
+			justify-content: center;
+			gap: 3rem;
+		}
+	}
+
+	.o_contact__person {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+
+		.a_image {
+			width: 5rem;
+			height: 5rem;
+			border-radius: 50%;
+			object-fit: cover;
+			border: 2px solid rgba(255, 255, 255, .3);
+		}
+
+		.a_h3 {
+			color: #fff;
+			font-family: var(--font-heading);
+			font-size: 1.25rem;
+			font-weight: 500;
+		}
+	}
+
+	.m_buttons {
+		justify-content: center;
+	}
+
+	.a_button {
+		&.primary {
+			background-color: #fff;
+			color: var(--color_primary-hover);
+
+			&:hover {
+				background-color: var(--bg_body);
+				box-shadow: 0 8px 32px rgba(0, 0, 0, .25);
+			}
+		}
+
+		&.secondary {
+			color: rgba(255, 255, 255, .85);
+			border-color: rgba(255, 255, 255, .35);
+
+			&:hover {
+				color: #fff;
+				border-color: rgba(255, 255, 255, .6);
+			}
+		}
+	}
+}

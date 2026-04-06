@@ -1,0 +1,17 @@
+<section class="o_values grid"
+	{{#if section_id}}
+	 id="{{section_id}}"
+	{{/if}}>
+	{{> m_section_title }}
+	{{#each items}}
+	<div class="item col-4">
+		<div class="item__icon">
+			{{> a_icon }}
+		</div>
+		<div class="item__text">
+			{{> a_h3 a_icon=false }}
+			{{> a_description }}
+		</div>
+	</div>
+	{{/each}}
+</section>

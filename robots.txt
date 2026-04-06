@@ -1,0 +1,28 @@
+# Robots.txt
+# https://safemezinami.cz/robots.txt
+
+User-agent: *
+Allow: /
+
+# AI crawlers — allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# AI crawlers — blocked
+User-agent: Bytespider
+Disallow: /
+
+# Sitemaps
+Sitemap: https://safemezinami.cz/sitemap.xml

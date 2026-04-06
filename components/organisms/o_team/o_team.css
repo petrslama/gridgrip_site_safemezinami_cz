@@ -1,0 +1,44 @@
+.o_team {
+	background-color: var(--bg_alt);
+	padding-block: 5rem;
+
+	@media (min-width: 69rem) {
+		padding-block: 8rem;
+	}
+
+	.member {
+		background-color: var(--bg_surface);
+		border-radius: var(--radius-lg);
+		box-shadow: 0 2px 24px color-mix(in srgb, var(--color_text) 7%, transparent);
+		overflow: hidden;
+		transition: box-shadow .3s ease, transform .3s ease;
+
+		&:hover {
+			box-shadow: 0 8px 48px color-mix(in srgb, var(--color_text) 13%, transparent);
+			transform: translateY(-4px);
+		}
+
+		.a_image img {
+			aspect-ratio: 1 / 1;
+			object-fit: cover;
+			object-position: top center;
+		}
+	}
+
+	.member__body {
+		display: flex;
+		flex-direction: column;
+		gap: .5rem;
+		padding: 2rem;
+
+		@media (min-width: 69rem) {
+			padding: 2.5rem;
+		}
+
+		.a_h3 {
+			font-family: var(--font-heading);
+			font-size: 1.875rem;
+			font-weight: 500;
+		}
+	}
+}

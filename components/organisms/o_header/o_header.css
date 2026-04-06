@@ -1,0 +1,129 @@
+:root {
+	--header-h: 4.5rem;
+}
+
+header#header {
+	position: fixed;
+	inset: 0 0 auto;
+	z-index: 100;
+	height: var(--header-h);
+	background-color: color-mix(in srgb, var(--bg_body) 90%, transparent);
+	backdrop-filter: blur(16px);
+	border-bottom: 1px solid var(--color_border);
+}
+
+.o_header {
+	padding-block: 0;
+
+	.container {
+		height: var(--header-h);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.a_image img {
+		height: 2.75rem;
+		width: auto;
+	}
+
+	.nav-links {
+		display: none;
+		gap: .25rem;
+
+		@media (min-width: 48rem) {
+			display: flex;
+		}
+
+		a {
+			font-size: .875rem;
+			color: var(--color_text-muted);
+			text-decoration: none;
+			padding: .5rem .875rem;
+			border-radius: 100px;
+			transition: color .3s ease, background-color .3s ease;
+
+			&:hover {
+				color: var(--color_text);
+				background-color: var(--bg_surface);
+			}
+		}
+	}
+
+	.m_buttons {
+		display: none;
+
+		@media (min-width: 48rem) {
+			display: flex;
+		}
+	}
+
+	.menu-toggle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 40px;
+		height: 40px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		color: var(--color_text);
+
+		[data-icon="x"] {
+			display: none;
+		}
+
+		@media (min-width: 48rem) {
+			display: none;
+		}
+	}
+
+	&.is-open {
+		.menu-toggle {
+			[data-icon="menu"] {
+				display: none;
+			}
+
+			[data-icon="x"] {
+				display: inline-block;
+			}
+		}
+
+		.mobile-nav {
+			display: block;
+		}
+	}
+
+	.mobile-nav {
+		display: none;
+		position: fixed;
+		inset-block-start: var(--header-h);
+		inset-inline: 0;
+		background-color: var(--bg_body);
+		border-bottom: 1px solid var(--color_border);
+		padding: 1.5rem 1.25rem;
+		z-index: 99;
+
+		a {
+			display: block;
+			padding: .875rem 0;
+			font-size: 1.125rem;
+			color: var(--color_text);
+			text-decoration: none;
+			border-bottom: 1px solid var(--color_border);
+			transition: color .3s ease;
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			&:hover {
+				color: var(--color_primary);
+			}
+		}
+	}
+}
+
+main#main {
+	border-top: var(--header-h) solid transparent;
+}

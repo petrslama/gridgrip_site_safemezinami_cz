@@ -1,0 +1,19 @@
+<section class="o_contact"
+	{{#if section_id}}
+	 id="{{section_id}}"
+	{{/if}}>
+	<div class="o_contact__card container">
+		{{> a_eyebrow }}
+		{{> a_h2 }}
+		{{> a_description }}
+		<div class="o_contact__people">
+			{{#each contacts}}
+			<div class="o_contact__person">
+				{{> a_image }}
+				{{> a_h3 }}
+				{{> m_buttons }}
+			</div>
+			{{/each}}
+		</div>
+	</div>
+</section>

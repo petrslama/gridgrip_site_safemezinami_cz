@@ -1,0 +1,32 @@
+.o_footer {
+	padding-block: 2.5rem;
+	border-top: 1px solid var(--color_border);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: .5rem;
+	text-align: center;
+
+	@media (min-width: 48rem) {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.a_image img {
+		height: 2.25rem;
+		width: auto;
+	}
+
+	&__copy {
+		font-size: .8125rem;
+		color: var(--color_text-muted);
+		margin: 0;
+	}
+
+	&__note {
+		font-size: .75rem;
+		color: var(--color_text-muted);
+		opacity: .7;
+		margin: 0;
+	}
+}

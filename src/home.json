@@ -1,0 +1,311 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_hero",
+			"a_image": {
+				"src": "/assets/imgs/tana-michaela-portrait.jpg",
+				"alt": "Táňa Faltisová a Michaela Skalová",
+				"width": "1024",
+				"height": "576"
+			},
+			"a_eyebrow": "SaFe – mezi námi",
+			"a_h1": "Bezpečný prostor<br>pro vaši <em>změnu.</em>",
+			"a_description": "Poskytujeme konzultace v bezpečném prostředí, nabízíme prostor ke sdílení, k nalezení cesty k žádoucí změně a ke zmírnění napětí, které plyne z prožívání náročné situace, se kterou si člověk neví rady.",
+			"m_buttons": [
+				{
+					"icon_before": "calendar",
+					"text": "Domluvit konzultaci",
+					"href": "/#kontakt",
+					"style": "primary"
+				},
+				{
+					"text": "Naše služby",
+					"icon_after": "arrow-right",
+					"href": "/#sluzby",
+					"style": "secondary"
+				}
+			]
+		},
+		{
+			"fu_type": "o_team",
+			"section_id": "o-nas",
+			"a_eyebrow": "Kdo jsme",
+			"a_h2": "Zkušenost, která se počítá",
+			"a_description": "Spojujeme více než 30 let společné praxe v pomáhajících profesích.",
+			"center": "1",
+			"members": [
+				{
+					"a_image": {
+						"src": "/assets/imgs/tana-faltisova-try.jpg",
+						"alt": "Táňa Faltisová",
+						"width": "1024",
+						"height": "1024"
+					},
+					"role": "Psychoterapeut · Sociální pracovník · Lektor",
+					"a_h3": "Táňa Faltisová",
+					"bio": "Více než 15 let praxe s lidmi v krizových situacích — závislosti, duševní onemocnění, vězeňství, lidé bez domova. Specializuje se na systemickou psychoterapii a hlubší individuální práci."
+				},
+				{
+					"a_image": {
+						"src": "/assets/imgs/michaela-skalova-try.jpg",
+						"alt": "Michaela Skalová",
+						"width": "1024",
+						"height": "1024"
+					},
+					"role": "Sociální pracovník · Lektor prevence",
+					"a_h3": "Michaela Skalová",
+					"bio": "Přes 15 let práce s dětmi, dospívajícími a rodinami. Krizová intervence, prevence ve školách, vedení týmů. Specializuje se na vztahy, komunikaci a školní prostředí."
+				}
+			]
+		},
+		{
+			"fu_type": "o_features_grid",
+			"section_id": "sluzby",
+			"a_eyebrow": "Co nabízíme",
+			"a_h2": "Služby šité na míru",
+			"a_description": "Od individuální podpory přes konzultace až po preventivní programy — vždy s respektem a bez zbytečné byrokracie.",
+			"features": [
+				{
+					"a_icon": {
+						"icon": "heart-handshake"
+					},
+					"label": "Michaela Skalová",
+					"title": "Individuální podpora",
+					"description": "Podpora dětí od 6 let, dospívajících a rodičů. Práce s emocemi, vztahovými obtížemi a náročnými životními situacemi. Bezpečný, respektující vztah jako základ změny."
+				},
+				{
+					"a_icon": {
+						"icon": "brain"
+					},
+					"label": "Táňa Faltisová",
+					"title": "Konzultace a terapie",
+					"description": "Individuální sezení zaměřená na vnitřní napětí, vztahové problémy, úzkost nebo životní změny. Prostor pro otevřený rozhovor a hledání vlastní cesty ke změně."
+				},
+				{
+					"a_icon": {
+						"icon": "school"
+					},
+					"label": "Michaela Skalová",
+					"title": "Programy pro školy",
+					"description": "Prevence rizikového chování, posílení vztahů ve třídě a podpora pedagogů. Programy přímo ve školním prostředí, na míru konkrétnímu kolektivu."
+				},
+				{
+					"a_icon": {
+						"icon": "users"
+					},
+					"label": "Táňa i Michaela",
+					"title": "Workshopy & semináře",
+					"description": "Pro odborníky, školy i širokou veřejnost. Prakticky zaměřená setkání, která přinášejí nové perspektivy a konkrétní nástroje do každodenní praxe."
+				}
+			]
+		},
+		{
+			"fu_type": "o_pricing",
+			"section_id": "ceny",
+			"a_eyebrow": "Transparentní ceny",
+			"a_h2": "Jasný přehled. Žádná překvapení.",
+			"center": "1",
+			"plans": [
+				{
+					"a_icon": {
+						"icon": "user-round"
+					},
+					"label": "Individuální sezení",
+					"title": "Individuální podpora",
+					"price": "800",
+					"currency": "Kč",
+					"per": "/ 45 minut",
+					"note": "Práce s dětmi, dospívajícími a rodinami.<br>Michaela Skalová"
+				},
+				{
+					"a_icon": {
+						"icon": "brain"
+					},
+					"label": "Individuální sezení",
+					"title": "Konzultace a terapie",
+					"price": "1 000",
+					"currency": "Kč",
+					"per": "/ 45 minut",
+					"note": "Systemická psychoterapie, práce s krizí.<br>Táňa Faltisová",
+					"featured": "1"
+				},
+				{
+					"a_icon": {
+						"icon": "presentation"
+					},
+					"label": "Skupinové formáty",
+					"title": "Programy & workshopy",
+					"price": "od 2 500",
+					"currency": "Kč",
+					"per": "/ blok / dle rozsahu",
+					"note": "Programy pro školy od 2 500 Kč/blok.<br>Workshopy 2 000–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
+				}
+			]
+		},
+		{
+			"fu_type": "o_values",
+			"section_id": "hodnoty",
+			"a_eyebrow": "Náš přístup",
+			"a_h2": "Co od nás dostanete",
+			"center": "1",
+			"items": [
+				{
+					"a_icon": {
+						"icon": "shield-check"
+					},
+					"a_h3": "Bezpečný prostor",
+					"a_description": "Žádné hodnocení, žádné odsuzování. Otevřený rozhovor v soukromí a klidu."
+				},
+				{
+					"a_icon": {
+						"icon": "graduation-cap"
+					},
+					"a_h3": "Odborné vedení",
+					"a_description": "Více než 15 let praxe každé z nás. Certifikovaní odborníci."
+				},
+				{
+					"a_icon": {
+						"icon": "map-pin"
+					},
+					"a_h3": "Kroky ke změně",
+					"a_description": "Hledáme konkrétní řešení a kroky, které fungují v každodenním životě."
+				},
+				{
+					"a_icon": {
+						"icon": "life-buoy"
+					},
+					"a_h3": "Podpora v krizi",
+					"a_description": "Jsme tu i tehdy, když to nejde samo. Krizová intervence je součástí naší praxe."
+				},
+				{
+					"a_icon": {
+						"icon": "handshake"
+					},
+					"a_h3": "Lidský přístup",
+					"a_description": "Neformálně, ale odborně. Setkáte se s námi jako s člověkem, ne jen s terapeutem."
+				},
+				{
+					"a_icon": {
+						"icon": "sparkles"
+					},
+					"a_h3": "Transparentní spolupráce",
+					"a_description": "Jasné ceny, jasná komunikace. Služby mimo rámec neziskových organizací."
+				}
+			]
+		},
+		{
+			"fu_type": "o_delivery",
+			"a_eyebrow": "Jak pracujeme",
+			"a_h2": "Přijdete k nám, nebo my za vámi",
+			"center": "1",
+			"items": [
+				{
+					"a_icon": {
+						"icon": "building-2"
+					},
+					"a_h3": "Osobně",
+					"a_description": "V kanceláři, v klidném a soukromém prostředí."
+				},
+				{
+					"a_icon": {
+						"icon": "video"
+					},
+					"a_h3": "Online",
+					"a_description": "Pohodlně z domova — přes videohovor."
+				},
+				{
+					"a_icon": {
+						"icon": "school"
+					},
+					"a_h3": "Ve školách",
+					"a_description": "Programy a workshopy přímo v prostředí školy."
+				}
+			]
+		},
+		{
+			"fu_type": "o_contact",
+			"section_id": "kontakt",
+			"a_eyebrow": "Udělejte první krok",
+			"a_h2": "Napište nám",
+			"a_description": "Rádi odpovíme na vaše otázky a pomůžeme najít tu správnou formu spolupráce. Bez závazků, v klidu.",
+			"contacts": [
+				{
+					"a_image": {
+						"src": "/assets/imgs/michaela-skalova-try.jpg",
+						"alt": "Michaela Skalová",
+						"width": "1024",
+						"height": "1024"
+					},
+					"a_h3": "Michaela Skalová",
+					"m_buttons": [
+						{
+							"icon_before": "mail",
+							"text": "safe-michaela@seznam.cz",
+							"href": "mailto:safe-michaela@seznam.cz",
+							"style": "primary"
+						},
+						{
+							"icon_before": "phone",
+							"text": "+420 606 169 045",
+							"href": "tel:+420606169045",
+							"style": "secondary"
+						}
+					]
+				},
+				{
+					"a_image": {
+						"src": "/assets/imgs/tana-faltisova-try.jpg",
+						"alt": "Táňa Faltisová",
+						"width": "1024",
+						"height": "1024"
+					},
+					"a_h3": "Táňa Faltisová",
+					"m_buttons": [
+						{
+							"icon_before": "mail",
+							"text": "safe-tana@seznam.cz",
+							"href": "mailto:safe-tana@seznam.cz",
+							"style": "primary"
+						},
+						{
+							"icon_before": "phone",
+							"text": "+420 702 128 833",
+							"href": "tel:+420702128833",
+							"style": "secondary"
+						}
+					]
+				}
+			]
+		}
+	],
+	"seo": {
+		"title": "SaFe – mezi námi — Odborná podpora v náročných životních situacích",
+		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie, prevence ve školách a workshopy. Táňa Faltisová a Michaela Skalová, Hodonín.",
+		"og": {
+			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
+			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy. S lidským přístupem a dlouholetou praxí.",
+			"url": "https://www.safemezinami.cz/",
+			"type": "website",
+			"image": {
+				"src": "/assets/imgs/og-image.jpg",
+				"alt": "SaFe – mezi námi"
+			}
+		},
+		"twitter": {
+			"card": "summary_large_image",
+			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
+			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy.",
+			"image": {
+				"src": "/assets/imgs/og-image.jpg",
+				"alt": "SaFe – mezi námi"
+			}
+		}
+	},
+	"settings": {
+		"start_head_codes": [],
+		"head_codes": [],
+		"start_body_codes": [],
+		"body_codes": [],
+		"alternate": []
+	}
+}

@@ -1,0 +1,22 @@
+<section class="o_features_grid grid"
+	{{#if section_id}}
+	 id="{{section_id}}"
+	{{/if}}>
+	{{> m_section_title }}
+	{{#each features}}
+	<div class="feature col-3">
+		<div class="feature__icon">
+			{{> a_icon }}
+		</div>
+		{{#if label}}
+		<p class="label">{{label}}</p>
+		{{/if}}
+		{{#if title}}
+		<strong class="title">{{title}}</strong>
+		{{/if}}
+		{{#if description}}
+		<p class="description">{{description}}</p>
+		{{/if}}
+	</div>
+	{{/each}}
+</section>

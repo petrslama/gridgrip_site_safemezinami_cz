@@ -1,0 +1,36 @@
+{
+	"fu_type": "o_footer",
+	"fu_label": "Footer",
+	"fu_row__labels": [
+		{
+			"fu_label": "Footer"
+		}
+	],
+	"fields": [
+		{
+			"fu_type": "from_definition",
+			"definition": "a_fu_type"
+		},
+		{
+			"fu_type": "group",
+			"fu_label": "Brand",
+			"fu_name": "brand",
+			"fields": [
+				{
+					"fu_type": "from_definition",
+					"definition": "a_image"
+				}
+			]
+		},
+		{
+			"fu_type": "text",
+			"fu_label": "Copyright",
+			"fu_name": "copyright"
+		},
+		{
+			"fu_type": "text",
+			"fu_label": "Note",
+			"fu_name": "note"
+		}
+	]
+}

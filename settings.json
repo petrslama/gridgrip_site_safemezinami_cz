@@ -1,0 +1,39 @@
+{
+	"site_url": "https://www.safemezinami.cz",
+	"template": "inSite",
+	"start_head_codes": [
+		{
+			"note": "Google Tag Manager",
+			"code": "<!-- Add Google Tag Manager script here -->"
+		}
+	],
+	"head_codes": [],
+	"start_body_codes": [
+		{
+			"note": "Google Tag Manager (noscript)",
+			"code": "<!-- Add Google Tag Manager noscript fallback here -->"
+		}
+	],
+	"body_codes": [],
+	"color_primary": "#6b8f5e",
+	"color_primary-hover": "#4a7240",
+	"color_accent": "#b8878e",
+	"color_text": "#2a2c24",
+	"color_text-muted": "#6b6558",
+	"bg_body": "#fdf8f5",
+	"color_border": "#e8dbd5",
+	"bg_surface": "#ffffff",
+	"bg_alt": "#f5ede8",
+	"font-heading": "'Cormorant Garamond', Georgia, serif",
+	"font-body": "'DM Sans', system-ui, sans-serif",
+	"dark_scheme_colors": {
+		"color_primary": "#6b8f5e",
+		"color_primary-hover": "#4a7240",
+		"color_accent": "#b8878e",
+		"color_text": "#2a2c24",
+		"color_text-muted": "#6b6558",
+		"color_border": "#e8dbd5",
+		"bg_body": "#fdf8f5",
+		"bg_surface": "#ffffff"
+	}
+}

@@ -1,0 +1,30 @@
+<section class="o_header">
+	<div class="container">
+		{{> a_image }}
+		<div class="nav-links">
+			{{#each navigation}}
+			<a href="{{href}}"
+				{{#if target}}
+				 target="{{target}}"
+				{{/if}}>{{label}}</a>
+			{{/each}}
+		</div>
+		{{> m_buttons }}
+		<button class="menu-toggle"
+			{{#if aria_label}}
+			 aria-label="{{aria_label}}"
+			{{/if}}
+			 aria-expanded="false">
+			{{> a_icon icon='menu' }}
+			{{> a_icon icon='x' }}
+		</button>
+	</div>
+	<div class="mobile-nav">
+		{{#each navigation}}
+		<a href="{{href}}" class="mobile-link"
+			{{#if target}}
+			 target="{{target}}"
+			{{/if}}>{{label}}</a>
+		{{/each}}
+	</div>
+</section>

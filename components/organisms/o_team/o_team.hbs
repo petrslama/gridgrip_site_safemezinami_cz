@@ -1,0 +1,20 @@
+<section class="o_team grid"
+	{{#if section_id}}
+	 id="{{section_id}}"
+	{{/if}}>
+	{{> m_section_title }}
+	{{#each members}}
+	<div class="col-6 member">
+		{{> a_image }}
+		<div class="member__body">
+			{{#if role}}
+			<p class="a_eyebrow">{{role}}</p>
+			{{/if}}
+			{{> a_h3 }}
+			{{#if bio}}
+			<p class="a_description">{{{bio}}}</p>
+			{{/if}}
+		</div>
+	</div>
+	{{/each}}
+</section>

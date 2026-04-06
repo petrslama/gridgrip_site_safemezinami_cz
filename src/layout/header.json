@@ -1,0 +1,45 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_header",
+			"a_image": {
+				"alt": "SaFe – mezi námi logo",
+				"width": "160",
+				"height": "44",
+				"src": "/assets/imgs/logo.png",
+				"href": "/"
+			},
+			"aria_label": "Otevřít navigaci",
+			"navigation": [
+				{
+					"label": "O nás",
+					"href": "/#o-nas"
+				},
+				{
+					"label": "Služby",
+					"href": "/#sluzby"
+				},
+				{
+					"label": "Ceny",
+					"href": "/#ceny"
+				},
+				{
+					"label": "Hodnoty",
+					"href": "/#hodnoty"
+				},
+				{
+					"label": "Kontakt",
+					"href": "/#kontakt"
+				}
+			],
+			"m_buttons": [
+				{
+					"icon_before": "mail",
+					"text": "Napište nám",
+					"href": "/#kontakt",
+					"style": "secondary"
+				}
+			]
+		}
+	]
+}

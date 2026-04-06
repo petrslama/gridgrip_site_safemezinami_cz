@@ -1,0 +1,15 @@
+{
+	"sections": [
+		{
+			"fu_type": "o_footer",
+			"brand": {
+				"a_image": {
+					"src": "/assets/imgs/logo.png",
+					"alt": "SaFe – mezi námi logo"
+				}
+			},
+			"copyright": "© 2026 SaFe – mezi námi",
+			"note": "Poskytování služeb mimo rámec neziskových organizací"
+		}
+	]
+}

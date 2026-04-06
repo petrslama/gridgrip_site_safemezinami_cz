@@ -1,0 +1,102 @@
+{
+	"fu_type": "o_pricing",
+	"fu_label": "Pricing",
+	"fu_row__labels": [
+		{
+			"fu_label": "Pricing"
+		},
+		{
+			"fu_label": "[a_h2]"
+		}
+	],
+	"fields": [
+		{
+			"fu_type": "from_definition",
+			"definition": "a_fu_type"
+		},
+		{
+			"fu_type": "tabs",
+			"tabs": [
+				{
+					"fu_label": "Content",
+					"fields": [
+						{
+							"fu_type": "from_definition",
+							"definition": "m_section_title"
+						},
+						{
+							"fu_type": "repeater_single",
+							"fu_label": "Plans",
+							"fu_name": "plans",
+							"fu_repeater__labels": [
+								{
+									"fu_label": "Title"
+								}
+							],
+							"templates": [
+								{
+									"fu_row__labels": [
+										{
+											"fu_label": "[title]"
+										}
+									],
+									"fields": [
+										{
+											"fu_type": "from_definition",
+											"definition": "a_icon"
+										},
+										{
+											"fu_type": "text",
+											"fu_label": "Label",
+											"fu_name": "label"
+										},
+										{
+											"fu_type": "text",
+											"fu_label": "Title",
+											"fu_name": "title"
+										},
+										{
+											"fu_type": "text",
+											"fu_label": "Price",
+											"fu_name": "price"
+										},
+										{
+											"fu_type": "text",
+											"fu_label": "Currency",
+											"fu_name": "currency"
+										},
+										{
+											"fu_type": "text",
+											"fu_label": "Per",
+											"fu_name": "per"
+										},
+										{
+											"fu_type": "textarea",
+											"fu_label": "Note",
+											"fu_name": "note",
+											"width": "fullwidth"
+										},
+										{
+											"fu_type": "checkbox",
+											"fu_name": "featured",
+											"fu_after": "Featured"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fu_label": "Settings",
+					"fields": [
+						{
+							"fu_type": "from_definition",
+							"definition": "m_section_settings"
+						}
+					]
+				}
+			]
+		}
+	]
+}

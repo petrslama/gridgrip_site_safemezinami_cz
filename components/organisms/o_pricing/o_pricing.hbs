@@ -1,0 +1,34 @@
+<section class="o_pricing grid"
+	{{#if section_id}}
+	 id="{{section_id}}"
+	{{/if}}>
+	{{> m_section_title }}
+	{{#each plans}}
+	<div class="plan col-4{{#if featured}} plan--featured{{/if}}">
+		<div class="plan__icon">
+			{{> a_icon }}
+		</div>
+		{{#if label}}
+		<p class="plan__label">{{label}}</p>
+		{{/if}}
+		{{#if title}}
+		<h3 class="plan__title">{{title}}</h3>
+		{{/if}}
+		{{#if price}}
+		<div class="plan__price">
+			{{price}}
+			{{#if currency}}
+			<span>{{currency}}</span>
+			{{/if}}
+		</div>
+		{{/if}}
+		{{#if per}}
+		<p class="plan__per">{{per}}</p>
+		{{/if}}
+		{{#if note}}
+		<hr class="plan__divider">
+		<p class="plan__note">{{{note}}}</p>
+		{{/if}}
+	</div>
+	{{/each}}
+</section>
