@@ -6,7 +6,8 @@
 				"alt": "PhDr. Táňa Faltisová a Mgr. Michaela Skalová",
 				"width": "1024",
 				"height": "576",
-				"src": "/assets/imgs/tana-michaela-portrait.jpg"
+				"src": "/assets/imgs/tana-michaela-portrait.jpg",
+				"fetchpriority": "high"
 			},
 			"a_eyebrow": "SaFe – mezi námi",
 			"a_h1": "Prostor<br>pro vaši <em>změnu.</em>",
@@ -38,7 +39,8 @@
 						"alt": "PhDr. Táňa Faltisová",
 						"width": "1024",
 						"height": "1024",
-						"src": "/assets/imgs/tana-faltisova-try.jpg"
+						"src": "/assets/imgs/tana-faltisova-try.jpg",
+						"loading": "lazy"
 					},
 					"role": "Psychoterapeut · Sociální pracovník · Lektor",
 					"a_h3": "PhDr. Táňa Faltisová",
@@ -49,7 +51,8 @@
 						"alt": "Mgr. Michaela Skalová",
 						"width": "1024",
 						"height": "1024",
-						"src": "/assets/imgs/michaela-skalova-try.jpg"
+						"src": "/assets/imgs/michaela-skalova-try.jpg",
+						"loading": "lazy"
 					},
 					"role": "Sociální pracovník · Lektor prevence",
 					"a_h3": "Mgr. Michaela Skalová",
@@ -234,7 +237,8 @@
 						"alt": "Mgr. Michaela Skalová",
 						"width": "1024",
 						"height": "1024",
-						"src": "/assets/imgs/michaela-skalova-try.jpg"
+						"src": "/assets/imgs/michaela-skalova-try.jpg",
+						"loading": "lazy"
 					},
 					"a_h3": "Mgr. Michaela Skalová",
 					"m_buttons": [
@@ -257,7 +261,8 @@
 						"alt": "PhDr. Táňa Faltisová",
 						"width": "1024",
 						"height": "1024",
-						"src": "/assets/imgs/tana-faltisova-try.jpg"
+						"src": "/assets/imgs/tana-faltisova-try.jpg",
+						"loading": "lazy"
 					},
 					"a_h3": "PhDr. Táňa Faltisová",
 					"m_buttons": [

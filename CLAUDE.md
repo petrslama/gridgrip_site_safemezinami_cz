@@ -44,5 +44,5 @@ Components not in the shared `default` template:
 ## Content Rules
 
 - All text in Czech
-- Contact: Michaela safe-michaela@seznam.cz / +420 606 169 045, Táňa safe-tana@seznam.cz / +420 702 128 833
+- Contact: Michaela michaela@safemezinami.cz / +420 606 169 045, Táňa tana@safemezinami.cz / +420 702 128 833
 - Pricing must stay up to date with current rates

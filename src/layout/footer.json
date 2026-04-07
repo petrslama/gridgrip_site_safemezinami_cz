@@ -5,7 +5,10 @@
 			"brand": {
 				"a_image": {
 					"src": "/assets/imgs/logo.png",
-					"alt": "SaFe – mezi námi logo"
+					"alt": "SaFe – mezi námi logo",
+					"width": "160",
+					"height": "44",
+					"loading": "lazy"
 				}
 			},
 			"copyright": "© 2026 SaFe – mezi námi",

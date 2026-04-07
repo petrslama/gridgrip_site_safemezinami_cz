@@ -55,7 +55,7 @@
 
 		.label {
 			font-size: .75rem;
-			font-weight: 500;
+			font-weight: 400;
 			letter-spacing: .12em;
 			text-transform: uppercase;
 			color: var(--color_text-muted);
@@ -72,14 +72,14 @@
 		.price {
 			font-family: var(--font-heading);
 			font-size: 3.25rem;
-			font-weight: 400;
+			font-weight: 500;
 			line-height: 1;
 			color: var(--color_primary-hover);
 			margin-bottom: .25rem;
 
 			span {
 				font-size: 1.1rem;
-				font-weight: 300;
+				font-weight: 400;
 			}
 		}
 
