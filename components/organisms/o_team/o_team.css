@@ -40,5 +40,9 @@
 			font-size: 1.875rem;
 			font-weight: 500;
 		}
+
+		.a_description {
+			text-wrap: balance;
+		}
 	}
 }
