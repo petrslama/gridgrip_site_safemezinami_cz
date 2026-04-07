@@ -1,8 +1,9 @@
 .o_contact {
-	padding-block: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 0;
 
 	@media (min-width: 69rem) {
-		padding-block: 8rem;
+		padding-top: 8rem;
 	}
 }
 

@@ -84,6 +84,12 @@
 									]
 								}
 							]
+						},
+						{
+							"fu_type": "textarea",
+							"fu_label": "Footer note",
+							"fu_name": "footer_note",
+							"width": "fullwidth"
 						}
 					]
 				},

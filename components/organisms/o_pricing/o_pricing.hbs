@@ -5,17 +5,17 @@
 	{{> m_section_title }}
 	{{#each plans}}
 	<div class="plan col-4{{#if featured}} plan--featured{{/if}}">
-		<div class="plan__icon">
+		<div class="icon">
 			{{> a_icon }}
 		</div>
 		{{#if label}}
-		<p class="plan__label">{{label}}</p>
+		<p class="label">{{label}}</p>
 		{{/if}}
 		{{#if title}}
-		<h3 class="plan__title">{{title}}</h3>
+		<h3 class="title">{{title}}</h3>
 		{{/if}}
 		{{#if price}}
-		<div class="plan__price">
+		<div class="price">
 			{{price}}
 			{{#if currency}}
 			<span>{{currency}}</span>
@@ -23,12 +23,15 @@
 		</div>
 		{{/if}}
 		{{#if per}}
-		<p class="plan__per">{{per}}</p>
+		<p class="per">{{per}}</p>
 		{{/if}}
 		{{#if note}}
-		<hr class="plan__divider">
-		<p class="plan__note">{{{note}}}</p>
+		<hr class="divider">
+		<p class="note">{{{note}}}</p>
 		{{/if}}
 	</div>
 	{{/each}}
+	{{#if footer_note}}
+	<p class="footer_note col-12">{{{footer_note}}}</p>
+	{{/if}}
 </section>

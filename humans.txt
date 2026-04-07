@@ -1,11 +1,16 @@
 /* TEAM */
-Name:
-Role:
-Contact:
-Location:
+Name: Táňa Faltisová
+Role: Psychoterapeut, Sociální pracovník, Lektor
+Contact: safe-tana@seznam.cz
+Location: Hodonín, Česko
+
+Name: Michaela Skalová
+Role: Sociální pracovník, Lektor prevence
+Contact: safe-michaela@seznam.cz
+Location: Hodonín, Česko
 
 /* SITE */
-Last update:
-Language: en
+Last update: 2026-04-06
+Language: cs
 Standards: HTML5, CSS3
 Software: GridGrip CMS

@@ -18,12 +18,10 @@
 		 charset="UTF-8">
 	<meta
 		 name="color-scheme"
-		 content="light dark">
-	<script>(t=localStorage.theme)&&document.documentElement.classList.add(t)</script>
+		 content="light">
 	{{#with settings}}
 	<style>
-		/* Colors — Light (manual toggle) */
-		html.light {
+		:root {
 			--color_primary: {{#if color_primary}}{{color_primary}}{{else}}#6210FE{{/if}};
 			--color_primary-hover: {{#if color_primary-hover}}{{color_primary-hover}}{{else}}#8140FE{{/if}};
 			--color_accent: {{#if color_accent}}{{color_accent}}{{else}}#30FE10{{/if}};
@@ -34,48 +32,6 @@
 			--bg_body: {{#if bg_body}}{{bg_body}}{{else}}#ffffff{{/if}};
 			--bg_surface: {{#if bg_surface}}{{bg_surface}}{{else}}#ffffff{{/if}};
 		}
-		/* Colors — Light (system preference) */
-		@media (prefers-color-scheme: light) {
-			html:not(.light):not(.dark) {
-				--color_primary: {{#if color_primary}}{{color_primary}}{{else}}#6210FE{{/if}};
-				--color_primary-hover: {{#if color_primary-hover}}{{color_primary-hover}}{{else}}#8140FE{{/if}};
-				--color_accent: {{#if color_accent}}{{color_accent}}{{else}}#30FE10{{/if}};
-				--color_text: {{#if color_text}}{{color_text}}{{else}}#333333{{/if}};
-				--color_text-muted: {{#if color_text-muted}}{{color_text-muted}}{{else}}#717171{{/if}};
-				--color_text-inverted: {{#if color_text-inverted}}{{color_text-inverted}}{{else}}#ffffff{{/if}};
-				--color_border: {{#if color_border}}{{color_border}}{{else}}#e5e7eb{{/if}};
-				--bg_body: {{#if bg_body}}{{bg_body}}{{else}}#ffffff{{/if}};
-				--bg_surface: {{#if bg_surface}}{{bg_surface}}{{else}}#ffffff{{/if}};
-			}
-		}
-		/* Colors — Dark (manual toggle) */
-		{{#with dark_scheme_colors}}
-		html.dark {
-			--color_primary: {{#if color_primary}}{{color_primary}}{{else}}#8140FE{{/if}};
-			--color_primary-hover: {{#if color_primary-hover}}{{color_primary-hover}}{{else}}#9960FF{{/if}};
-			--color_accent: {{#if color_accent}}{{color_accent}}{{else}}#30FE10{{/if}};
-			--color_text: {{#if color_text}}{{color_text}}{{else}}#e0e0e0{{/if}};
-			--color_text-muted: {{#if color_text-muted}}{{color_text-muted}}{{else}}#a0a0a0{{/if}};
-			--color_text-inverted: {{#if color_text-inverted}}{{color_text-inverted}}{{else}}#141414{{/if}};
-			--color_border: {{#if color_border}}{{color_border}}{{else}}#2a2a2a{{/if}};
-			--bg_body: {{#if bg_body}}{{bg_body}}{{else}}#121212{{/if}};
-			--bg_surface: {{#if bg_surface}}{{bg_surface}}{{else}}#1e1e1e{{/if}};
-		}
-		/* Colors — Dark (system preference) */
-		@media (prefers-color-scheme: dark) {
-			html:not(.light):not(.dark) {
-				--color_primary: {{#if color_primary}}{{color_primary}}{{else}}#8140FE{{/if}};
-				--color_primary-hover: {{#if color_primary-hover}}{{color_primary-hover}}{{else}}#9960FF{{/if}};
-				--color_accent: {{#if color_accent}}{{color_accent}}{{else}}#30FE10{{/if}};
-				--color_text: {{#if color_text}}{{color_text}}{{else}}#e0e0e0{{/if}};
-				--color_text-muted: {{#if color_text-muted}}{{color_text-muted}}{{else}}#a0a0a0{{/if}};
-				--color_text-inverted: {{#if color_text-inverted}}{{color_text-inverted}}{{else}}#141414{{/if}};
-				--color_border: {{#if color_border}}{{color_border}}{{else}}#2a2a2a{{/if}};
-				--bg_body: {{#if bg_body}}{{bg_body}}{{else}}#121212{{/if}};
-				--bg_surface: {{#if bg_surface}}{{bg_surface}}{{else}}#1e1e1e{{/if}};
-			}
-		}
-		{{/with}}
 		/* Apply colors immediately (before external CSS loads) */
 		html, body {
 			background-color: var(--bg_body);

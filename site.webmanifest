@@ -1,11 +1,11 @@
 {
-	"name": "Example Company",
-	"short_name": "Example",
-	"description": "Short description of the website.",
+	"name": "SaFe – mezi námi",
+	"short_name": "SaFe",
+	"description": "Odborná podpora v náročných životních situacích. Konzultace, psychoterapie, prevence ve školách.",
 	"start_url": "/",
 	"display": "standalone",
-	"background_color": "#ffffff",
-	"theme_color": "#ffffff",
+	"background_color": "#fdf8f5",
+	"theme_color": "#6b8f5e",
 	"icons": [
 		{
 			"src": "/assets/imgs/icon-48.png",
@@ -45,16 +45,6 @@
 		{
 			"src": "/assets/imgs/icon-256.png",
 			"sizes": "256x256",
-			"type": "image/png"
-		},
-		{
-			"src": "/assets/imgs/icon-384.png",
-			"sizes": "384x384",
-			"type": "image/png"
-		},
-		{
-			"src": "/assets/imgs/icon-512.png",
-			"sizes": "512x512",
 			"type": "image/png"
 		}
 	]

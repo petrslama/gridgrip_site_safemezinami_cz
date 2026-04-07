@@ -1,25 +1,14 @@
 # Site: safemezinami_cz
 
-safemezinami.cz &mdash; SaFe &ndash; mezi n&aacute;mi
+safemezinami.cz &mdash; SaFe &ndash; mezi n&aacute;mi. Odborn&aacute; podpora v n&aacute;ro&ccaron;n&yacute;ch &zcaron;ivotn&iacute;ch situac&iacute;ch.
 
 ## Template
 
-`inSite`
-
-## Directory Structure
-
-```
-settings.json         # Template selection + site settings
-src/                  # Page content (JSON)
-  layout/             # Global layout pieces (header, footer)
-html/                 # Generated static HTML (gitignored)
-assets/               # Static assets (images, icons, JS)
-```
+`inSite` (components in `components/`, not a shared template)
 
 ## Pages
 
-| Page    | Source JSON        | Description          |
-|---------|--------------------|----------------------|
-| Home    | `src/home.json`    | Homepage (one-pager) |
-| Sitemap | `src/sitemap.json` | Sitemap page         |
-| 404     | `src/404.json`     | Error page           |
+| Page    | Source JSON        | Description                 |
+|---------|--------------------|-----------------------------|
+| Home    | `src/home.json`    | One-page site (all content) |
+| 404     | `src/404.json`     | Error page                  |

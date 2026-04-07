@@ -4,24 +4,24 @@ RewriteBase /
 # ---------------------------------------------------------------
 # 301 Redirects (3 rules, order matters)
 # If Cloudflare "Always Use HTTPS" is ON, remove rules 1 + 2
-# and keep only rule 3 (non-www -> www) + trailing slash
+# and keep only rule 3 (www -> non-www) + trailing slash
 # ---------------------------------------------------------------
 
-# 1) HTTP + non-www -> HTTPS www (single hop)
+# 1) HTTP + www -> HTTPS non-www (single hop)
 RewriteCond %{HTTP_HOST} !^localhost$ [NC]
 RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://safemezinami.cz%{REQUEST_URI} [L,R=301]
 
-# 2) HTTP -> HTTPS (www already present)
+# 2) HTTP -> HTTPS (non-www already present)
 RewriteCond %{HTTP_HOST} !^localhost$ [NC]
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# 3) non-www -> www (HTTPS already present)
+# 3) www -> non-www (HTTPS already present)
 RewriteCond %{HTTP_HOST} !^localhost$ [NC]
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://safemezinami.cz%{REQUEST_URI} [L,R=301]
 
 # 4) Trailing slash (except files with extension)
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -46,7 +46,7 @@ RewriteRule ^favicon\.ico$ assets/favicon.ico [L]
 RewriteRule ^\.well-known/security\.txt$ security.txt [L]
 
 # CSS cache busting: style.min.TIMESTAMP.css -> style.min.css
-RewriteRule ^html/style\.min\.\d+\.css$ html/style.min.css [L]
+RewriteRule ^style\.min\.\d+\.css$ style.min.css [L]
 
 # Root: / -> html/home.html
 RewriteRule ^$ html/home.html [L]

@@ -1,27 +1,29 @@
-# Example Company
+# SaFe – mezi námi
 
-> Short one-line description of what the company/website does.
+> Odborná podpora v náročných životních situacích. Konzultace, psychoterapie, prevence ve školách a workshopy.
 
-## About
+## O nás
 
-A few sentences about the company, its mission, and what visitors will find on the site.
+Táňa Faltisová a Michaela Skalová — dvě odbornice s více než 30 lety společné praxe v pomáhajících profesích. Poskytujeme konzultace v bezpečném prostředí, nabízíme prostor ke sdílení a k nalezení cesty k žádoucí změně.
 
-## Main Pages
+## Služby
 
-- [Home](https://www.example.com/): Brief description
-- [About](https://www.example.com/about/): Brief description
-- [Services](https://www.example.com/services/): Brief description
-- [Blog](https://www.example.com/blog/): Brief description
-- [Contact](https://www.example.com/contact/): Brief description
+- Individuální podpora — práce s dětmi od 6 let, dospívajícími a rodiči (Michaela Skalová)
+- Konzultace a terapie — systemická psychoterapie, práce s krizí (Táňa Faltisová)
+- Programy pro školy — prevence rizikového chování, posílení vztahů ve třídě
+- Workshopy a semináře — pro odborníky, školy i veřejnost
 
-## Key Facts
+## Ceny
 
-- Founded: 2020
-- Location: Prague, Czech Republic
-- Industry: ...
+- Individuální podpora: 800 Kč / 45 minut
+- Konzultace a terapie: 1 000 Kč / 45 minut
+- Programy a workshopy: od 2 500 Kč / blok
 
-## Contact
+## Kontakt
 
-- Email: info@example.com
-- Phone: +420 ...
-- Address: ...
+- Michaela Skalová: safe-michaela@seznam.cz, +420 606 169 045
+- Táňa Faltisová: safe-tana@seznam.cz, +420 702 128 833
+
+## Více informací
+
+- [Celý obsah webu](https://safemezinami.cz/llms-full.txt)

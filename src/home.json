@@ -3,13 +3,13 @@
 		{
 			"fu_type": "o_hero",
 			"a_image": {
-				"src": "/assets/imgs/tana-michaela-portrait.jpg",
-				"alt": "Táňa Faltisová a Michaela Skalová",
+				"alt": "PhDr. Táňa Faltisová a Mgr. Michaela Skalová",
 				"width": "1024",
-				"height": "576"
+				"height": "576",
+				"src": "/assets/imgs/tana-michaela-portrait.jpg"
 			},
 			"a_eyebrow": "SaFe – mezi námi",
-			"a_h1": "Bezpečný prostor<br>pro vaši <em>změnu.</em>",
+			"a_h1": "Prostor<br>pro vaši <em>změnu.</em>",
 			"a_description": "Poskytujeme konzultace v bezpečném prostředí, nabízíme prostor ke sdílení, k nalezení cesty k žádoucí změně a ke zmírnění napětí, které plyne z prožívání náročné situace, se kterou si člověk neví rady.",
 			"m_buttons": [
 				{
@@ -28,7 +28,6 @@
 		},
 		{
 			"fu_type": "o_team",
-			"section_id": "o-nas",
 			"a_eyebrow": "Kdo jsme",
 			"a_h2": "Zkušenost, která se počítá",
 			"a_description": "Spojujeme více než 30 let společné praxe v pomáhajících profesích.",
@@ -36,31 +35,31 @@
 			"members": [
 				{
 					"a_image": {
-						"src": "/assets/imgs/tana-faltisova-try.jpg",
-						"alt": "Táňa Faltisová",
+						"alt": "PhDr. Táňa Faltisová",
 						"width": "1024",
-						"height": "1024"
+						"height": "1024",
+						"src": "/assets/imgs/tana-faltisova-try.jpg"
 					},
 					"role": "Psychoterapeut · Sociální pracovník · Lektor",
-					"a_h3": "Táňa Faltisová",
+					"a_h3": "PhDr. Táňa Faltisová",
 					"bio": "Více než 15 let praxe s lidmi v krizových situacích — závislosti, duševní onemocnění, vězeňství, lidé bez domova. Specializuje se na systemickou psychoterapii a hlubší individuální práci."
 				},
 				{
 					"a_image": {
-						"src": "/assets/imgs/michaela-skalova-try.jpg",
-						"alt": "Michaela Skalová",
+						"alt": "Mgr. Michaela Skalová",
 						"width": "1024",
-						"height": "1024"
+						"height": "1024",
+						"src": "/assets/imgs/michaela-skalova-try.jpg"
 					},
 					"role": "Sociální pracovník · Lektor prevence",
-					"a_h3": "Michaela Skalová",
+					"a_h3": "Mgr. Michaela Skalová",
 					"bio": "Přes 15 let práce s dětmi, dospívajícími a rodinami. Krizová intervence, prevence ve školách, vedení týmů. Specializuje se na vztahy, komunikaci a školní prostředí."
 				}
-			]
+			],
+			"section_id": "o-nas"
 		},
 		{
 			"fu_type": "o_features_grid",
-			"section_id": "sluzby",
 			"a_eyebrow": "Co nabízíme",
 			"a_h2": "Služby šité na míru",
 			"a_description": "Od individuální podpory přes konzultace až po preventivní programy — vždy s respektem a bez zbytečné byrokracie.",
@@ -78,7 +77,7 @@
 						"icon": "brain"
 					},
 					"label": "Táňa Faltisová",
-					"title": "Konzultace a terapie",
+					"title": "Individuální podpora",
 					"description": "Individuální sezení zaměřená na vnitřní napětí, vztahové problémy, úzkost nebo životní změny. Prostor pro otevřený rozhovor a hledání vlastní cesty ke změně."
 				},
 				{
@@ -97,11 +96,11 @@
 					"title": "Workshopy & semináře",
 					"description": "Pro odborníky, školy i širokou veřejnost. Prakticky zaměřená setkání, která přinášejí nové perspektivy a konkrétní nástroje do každodenní praxe."
 				}
-			]
+			],
+			"section_id": "sluzby"
 		},
 		{
 			"fu_type": "o_pricing",
-			"section_id": "ceny",
 			"a_eyebrow": "Transparentní ceny",
 			"a_h2": "Jasný přehled. Žádná překvapení.",
 			"center": "1",
@@ -115,18 +114,18 @@
 					"price": "800",
 					"currency": "Kč",
 					"per": "/ 45 minut",
-					"note": "Práce s dětmi, dospívajícími a rodinami.<br>Michaela Skalová"
+					"note": "Práce s dětmi, dospívajícími a rodinami.<br>Mgr. Michaela Skalová"
 				},
 				{
 					"a_icon": {
 						"icon": "brain"
 					},
 					"label": "Individuální sezení",
-					"title": "Konzultace a terapie",
+					"title": "Individuální podpora",
 					"price": "1 000",
 					"currency": "Kč",
 					"per": "/ 45 minut",
-					"note": "Systemická psychoterapie, práce s krizí.<br>Táňa Faltisová",
+					"note": "Systemická psychoterapie, práce s krizí.<br>PhDr. Táňa Faltisová",
 					"featured": "1"
 				},
 				{
@@ -140,11 +139,12 @@
 					"per": "/ blok / dle rozsahu",
 					"note": "Programy pro školy od 2 500 Kč/blok.<br>Workshopy 2 000–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
 				}
-			]
+			],
+			"footer_note": "Cena za sezení je konečná. Hradí se v hotovosti nebo převodem — vystavíme fakturu nebo příjmový doklad.<br>Termín je možné zrušit nebo přesunout nejpozději 48 hodin předem. Při pozdním zrušení nebo nedostavení se účtujeme plnou cenu sezení.<br>Nový termín poskytujeme až po úhradě případného dlužného sezení.",
+			"section_id": "ceny"
 		},
 		{
 			"fu_type": "o_values",
-			"section_id": "hodnoty",
 			"a_eyebrow": "Náš přístup",
 			"a_h2": "Co od nás dostanete",
 			"center": "1",
@@ -161,7 +161,7 @@
 						"icon": "graduation-cap"
 					},
 					"a_h3": "Odborné vedení",
-					"a_description": "Více než 15 let praxe každé z nás. Certifikovaní odborníci."
+					"a_description": "Více než 15 let praxe každé z nás. Kvalifikovaní odborníci."
 				},
 				{
 					"a_icon": {
@@ -191,7 +191,8 @@
 					"a_h3": "Transparentní spolupráce",
 					"a_description": "Jasné ceny, jasná komunikace. Služby mimo rámec neziskových organizací."
 				}
-			]
+			],
+			"section_id": "hodnoty"
 		},
 		{
 			"fu_type": "o_delivery",
@@ -224,24 +225,23 @@
 		},
 		{
 			"fu_type": "o_contact",
-			"section_id": "kontakt",
 			"a_eyebrow": "Udělejte první krok",
 			"a_h2": "Napište nám",
 			"a_description": "Rádi odpovíme na vaše otázky a pomůžeme najít tu správnou formu spolupráce. Bez závazků, v klidu.",
 			"contacts": [
 				{
 					"a_image": {
-						"src": "/assets/imgs/michaela-skalova-try.jpg",
-						"alt": "Michaela Skalová",
+						"alt": "Mgr. Michaela Skalová",
 						"width": "1024",
-						"height": "1024"
+						"height": "1024",
+						"src": "/assets/imgs/michaela-skalova-try.jpg"
 					},
-					"a_h3": "Michaela Skalová",
+					"a_h3": "Mgr. Michaela Skalová",
 					"m_buttons": [
 						{
 							"icon_before": "mail",
-							"text": "safe-michaela@seznam.cz",
-							"href": "mailto:safe-michaela@seznam.cz",
+							"text": "michaela@safemezinami.cz",
+							"href": "mailto:michaela@safemezinami.cz",
 							"style": "primary"
 						},
 						{
@@ -254,17 +254,17 @@
 				},
 				{
 					"a_image": {
-						"src": "/assets/imgs/tana-faltisova-try.jpg",
-						"alt": "Táňa Faltisová",
+						"alt": "PhDr. Táňa Faltisová",
 						"width": "1024",
-						"height": "1024"
+						"height": "1024",
+						"src": "/assets/imgs/tana-faltisova-try.jpg"
 					},
-					"a_h3": "Táňa Faltisová",
+					"a_h3": "PhDr. Táňa Faltisová",
 					"m_buttons": [
 						{
 							"icon_before": "mail",
-							"text": "safe-tana@seznam.cz",
-							"href": "mailto:safe-tana@seznam.cz",
+							"text": "tana@safemezinami.cz",
+							"href": "mailto:tana@safemezinami.cz",
 							"style": "primary"
 						},
 						{
@@ -275,19 +275,20 @@
 						}
 					]
 				}
-			]
+			],
+			"section_id": "kontakt"
 		}
 	],
 	"seo": {
 		"title": "SaFe – mezi námi — Odborná podpora v náročných životních situacích",
-		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie, prevence ve školách a workshopy. Táňa Faltisová a Michaela Skalová, Hodonín.",
+		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie, prevence ve školách a workshopy. PhDr. Táňa Faltisová a Mgr. Michaela Skalová, Hodonín.",
 		"og": {
 			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
 			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy. S lidským přístupem a dlouholetou praxí.",
-			"url": "https://www.safemezinami.cz/",
+			"url": "https://safemezinami.cz/",
 			"type": "website",
 			"image": {
-				"src": "/assets/imgs/og-image.jpg",
+				"src": "/assets/imgs/icon-256.png",
 				"alt": "SaFe – mezi námi"
 			}
 		},
@@ -296,7 +297,7 @@
 			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
 			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy.",
 			"image": {
-				"src": "/assets/imgs/og-image.jpg",
+				"src": "/assets/imgs/icon-256.png",
 				"alt": "SaFe – mezi námi"
 			}
 		}
