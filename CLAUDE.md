@@ -2,9 +2,7 @@
 
 Czech one-page site for SaFe – mezi námi. Two counselors (Táňa Faltisová, Michaela Skalová) offering therapy, consultations, school programs and workshops in Hodonín area.
 
-## Template
-
-`inSite` — components live directly in `site/safemezinami_cz/components/`, not in a shared template directory.
+**Template:** `inSite` — components live in `site/safemezinami_cz/components/`. See `../../docs/reference.md` → "`inSite` Template Pattern".
 
 ## Design
 
