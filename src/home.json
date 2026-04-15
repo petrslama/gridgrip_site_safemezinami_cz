@@ -56,7 +56,7 @@
 					},
 					"role": "Sociální pracovník · Lektor prevence",
 					"a_h3": "Mgr. Michaela Skalová",
-					"bio": "Vystudovala sociální práci na Univerzitě Hradec Králové a&nbsp;od roku 2011 se naplno věnuje pomáhajícím profesím. Prošla prací v&nbsp;dětském domově, nízkoprahových službách pro děti a&nbsp;mládež, adiktologických službách i&nbsp;poradně pro cizince. Zastávala také vedoucí pozice se zkušeností s&nbsp;vedením týmu a&nbsp;rozvojem služeb. Čerpá z&nbsp;motivačních rozhovorů, krizové intervence i&nbsp;mindfulness.<br><br>Dnes se věnuje individuální podpoře dětí a&nbsp;dospívajících v&nbsp;náročných životních situacích a&nbsp;lektorování programů prevence rizikového chování ve školách. Ve své práci staví na respektu, důvěře a&nbsp;individuálním přístupu — bez rychlých soudů, s&nbsp;porozuměním a&nbsp;hledáním konkrétních kroků, které pomáhají dál."
+					"bio": "Vystudovala sociální práci na Univerzitě Hradec Králové a&nbsp;od roku 2011 se naplno věnuje pomáhajícím profesím. Prošla prací v&nbsp;dětském domově, nízkoprahových službách pro děti a&nbsp;mládež, adiktologických službách i&nbsp;poradně pro cizince. Zastávala také vedoucí pozice se zkušeností s&nbsp;vedením týmu a&nbsp;rozvojem služeb. Čerpá z&nbsp;motivačních rozhovorů, krizové intervence i&nbsp;mindfulness.<br><br>Dnes se věnuje individuální podpoře dětí a&nbsp;dospívajících v&nbsp;náročných životních situacích. Ve své práci staví na respektu, důvěře a&nbsp;individuálním přístupu — bez rychlých soudů, s&nbsp;porozuměním a&nbsp;hledáním konkrétních kroků, které pomáhají dál."
 				}
 			],
 			"section_id": "o-nas"
@@ -85,19 +85,11 @@
 				},
 				{
 					"a_icon": {
-						"icon": "school"
-					},
-					"label": "Michaela Skalová",
-					"title": "Programy pro školy",
-					"description": "Prevence rizikového chování, posílení vztahů ve třídě a podpora pedagogů. Programy přímo ve školním prostředí, na míru konkrétnímu kolektivu."
-				},
-				{
-					"a_icon": {
 						"icon": "users"
 					},
 					"label": "Táňa i Michaela",
 					"title": "Workshopy & semináře",
-					"description": "Pro odborníky, školy i širokou veřejnost. Prakticky zaměřená setkání, která přinášejí nové perspektivy a konkrétní nástroje do každodenní praxe."
+					"description": "Pro odborníky, pedagogy i širokou veřejnost. Prakticky zaměřená setkání, která přinášejí nové perspektivy a konkrétní nástroje do každodenní praxe."
 				}
 			],
 			"section_id": "sluzby"
@@ -140,7 +132,7 @@
 					"price": "od 2 500",
 					"currency": "Kč",
 					"per": "/ blok / dle rozsahu",
-					"note": "Programy pro školy od 2 500 Kč/blok.<br>Workshopy 2 000–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
+					"note": "Workshopy 2 000–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
 				}
 			],
 			"footer_note": "Cena za sezení je konečná. Hradí se v hotovosti nebo převodem — vystavíme fakturu nebo příjmový doklad.<br>Termín je možné zrušit nebo přesunout nejpozději 48 hodin předem. Při pozdním zrušení nebo nedostavení se účtujeme plnou cenu sezení.<br>Nový termín poskytujeme až po úhradě případného dlužného sezení.",
@@ -216,13 +208,6 @@
 					},
 					"a_h3": "Online",
 					"a_description": "Pohodlně z domova — přes videohovor."
-				},
-				{
-					"a_icon": {
-						"icon": "school"
-					},
-					"a_h3": "Ve školách",
-					"a_description": "Programy a workshopy přímo v prostředí školy."
 				}
 			]
 		},
@@ -286,10 +271,10 @@
 	],
 	"seo": {
 		"title": "SaFe – mezi námi — Odborná podpora v náročných životních situacích",
-		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie, prevence ve školách a workshopy. PhDr. Táňa Faltisová a Mgr. Michaela Skalová, Hodonín.",
+		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie a workshopy. PhDr. Táňa Faltisová a Mgr. Michaela Skalová, Hodonín.",
 		"og": {
 			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
-			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy. S lidským přístupem a dlouholetou praxí.",
+			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce a rodiny. S lidským přístupem a dlouholetou praxí.",
 			"url": "https://safemezinami.cz/",
 			"type": "website",
 			"image": {
@@ -300,7 +285,7 @@
 		"twitter": {
 			"card": "summary_large_image",
 			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
-			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy.",
+			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce a rodiny.",
 			"image": {
 				"src": "/assets/imgs/icon-256.png",
 				"alt": "SaFe – mezi námi"
