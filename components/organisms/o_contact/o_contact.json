@@ -59,6 +59,10 @@
 										},
 										{
 											"fu_type": "from_definition",
+											"definition": "a_description"
+										},
+										{
+											"fu_type": "from_definition",
 											"definition": "m_buttons"
 										}
 									]

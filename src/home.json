@@ -65,7 +65,7 @@
 			"fu_type": "o_features_grid",
 			"a_eyebrow": "Co nabízíme",
 			"a_h2": "Služby šité na míru",
-			"a_description": "Od individuální podpory přes konzultace až po preventivní programy — vždy s respektem a bez zbytečné byrokracie.",
+			"a_description": "Od individuální podpory přes konzultace až po workshopy a přednášky — vždy s respektem a bez zbytečné byrokracie.",
 			"features": [
 				{
 					"a_icon": {
@@ -135,7 +135,7 @@
 					"note": "Workshopy 2 000–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
 				}
 			],
-			"footer_note": "Cena za sezení je konečná. Hradí se v hotovosti nebo převodem — vystavíme fakturu nebo příjmový doklad.<br>Termín je možné zrušit nebo přesunout nejpozději 48 hodin předem. Při pozdním zrušení nebo nedostavení se účtujeme plnou cenu sezení.<br>Nový termín poskytujeme až po úhradě případného dlužného sezení.",
+			"footer_note": "Cena za sezení je konečná. Hradí se v hotovosti nebo převodem — vystavíme fakturu nebo příjmový doklad.<br>Termín je možné zrušit nebo přesunout nejpozději 24 hodin předem. Při pozdním zrušení nebo nedostavení se účtujeme plnou cenu sezení.<br>Nový termín poskytujeme až po úhradě případného dlužného sezení.",
 			"section_id": "ceny"
 		},
 		{
@@ -200,7 +200,7 @@
 						"icon": "building-2"
 					},
 					"a_h3": "Osobně",
-					"a_description": "V kanceláři, v klidném a soukromém prostředí."
+					"a_description": "V kanceláři, v klidném a soukromém prostředí.<br>Kolískova 3842/6, 695 01 Hodonín"
 				},
 				{
 					"a_icon": {
@@ -226,6 +226,7 @@
 						"loading": "lazy"
 					},
 					"a_h3": "Mgr. Michaela Skalová",
+					"a_description": "IČO: 24860549",
 					"m_buttons": [
 						{
 							"icon_before": "mail",
@@ -250,6 +251,7 @@
 						"loading": "lazy"
 					},
 					"a_h3": "PhDr. Táňa Faltisová",
+					"a_description": "IČO: 24922471",
 					"m_buttons": [
 						{
 							"icon_before": "mail",
