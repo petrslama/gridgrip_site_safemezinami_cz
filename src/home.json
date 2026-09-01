@@ -42,7 +42,6 @@
 						"src": "/assets/imgs/tana-faltisova-try.jpg",
 						"loading": "lazy"
 					},
-					"role": "Psychoterapeut · Sociální pracovník · Lektor",
 					"a_h3": "PhDr. Táňa Faltisová",
 					"bio": "Vystudovala sociální práci a&nbsp;etiku na Jihočeské univerzitě v&nbsp;Českých Budějovicích a&nbsp;získala titul PhDr. Od roku 2006 působí v&nbsp;pomáhajících profesích, absolvovala psychoterapeutický výcvik v&nbsp;systemické psychoterapii. Zkušenosti sbírala s&nbsp;lidmi závislými na návykových látkách, bez přístřeší, ve výkonu trestu, s&nbsp;duševně nemocnými i&nbsp;s&nbsp;dětmi v&nbsp;ústavní péči. Nejbližší je jí práce s&nbsp;lidmi, kteří se cítí nepochopení a&nbsp;jejichž životní cesta je mimořádně obtížná.<br><br>V současnosti působí jako sociální kurátorka, lektorka seminářů pro sociální pracovníky a&nbsp;psychoterapeutka v&nbsp;domově se zvláštním režimem i&nbsp;v dětském domově. Ve své práci vytváří bezpečný prostor pro sdílení problémů a&nbsp;hledání cest k&nbsp;úlevě — pomáhá klientům vidět vlastní silné stránky, na kterých mohou stavět."
 				},
@@ -54,7 +53,6 @@
 						"src": "/assets/imgs/michaela-skalova-try.jpg",
 						"loading": "lazy"
 					},
-					"role": "Sociální pracovník · Lektor prevence",
 					"a_h3": "Mgr. Michaela Skalová",
 					"bio": "Vystudovala sociální práci na Univerzitě Hradec Králové a&nbsp;od roku 2011 se naplno věnuje pomáhajícím profesím. Prošla prací v&nbsp;dětském domově, nízkoprahových službách pro děti a&nbsp;mládež, adiktologických službách i&nbsp;poradně pro cizince. Zastávala také vedoucí pozice se zkušeností s&nbsp;vedením týmu a&nbsp;rozvojem služeb. Čerpá z&nbsp;motivačních rozhovorů, krizové intervence i&nbsp;mindfulness.<br><br>Dnes se věnuje individuální podpoře dětí a&nbsp;dospívajících v&nbsp;náročných životních situacích. Ve své práci staví na respektu, důvěře a&nbsp;individuálním přístupu — bez rychlých soudů, s&nbsp;porozuměním a&nbsp;hledáním konkrétních kroků, které pomáhají dál."
 				}
@@ -87,7 +85,7 @@
 					"a_icon": {
 						"icon": "school"
 					},
-					"label": "Táňa i Michaela",
+					"label": "Michaela Skalová",
 					"title": "Preventivní programy pro školy",
 					"description": "Programy pro třídní kolektivy na míru — vztahy ve třídě, rizikové chování, duševní zdraví. Realizace přímo ve škole, v rozsahu podle potřeb třídy."
 				},
