@@ -65,7 +65,7 @@
 			"fu_type": "o_features_grid",
 			"a_eyebrow": "Co nabízíme",
 			"a_h2": "Služby šité na míru",
-			"a_description": "Od individuální podpory přes konzultace až po workshopy a přednášky — vždy s respektem a bez zbytečné byrokracie.",
+			"a_description": "Od individuální podpory přes preventivní programy pro školy až po workshopy a přednášky — vždy s respektem a bez zbytečné byrokracie.",
 			"features": [
 				{
 					"a_icon": {
@@ -82,6 +82,14 @@
 					"label": "Táňa Faltisová",
 					"title": "Individuální podpora",
 					"description": "Individuální sezení zaměřená na vnitřní napětí, vztahové problémy, úzkost nebo životní změny. Prostor pro otevřený rozhovor a hledání vlastní cesty ke změně."
+				},
+				{
+					"a_icon": {
+						"icon": "school"
+					},
+					"label": "Táňa i Michaela",
+					"title": "Preventivní programy pro školy",
+					"description": "Programy pro třídní kolektivy na míru — vztahy ve třídě, rizikové chování, duševní zdraví. Realizace přímo ve škole, v rozsahu podle potřeb třídy."
 				},
 				{
 					"a_icon": {
@@ -132,7 +140,7 @@
 					"price": "od 3 500",
 					"currency": "Kč",
 					"per": "/ blok / dle rozsahu",
-					"note": "Workshopy 3 500–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
+					"note": "Preventivní programy pro školy a workshopy 3 500–10 000 Kč dle rozsahu.<br>+ cestovní náhrady"
 				}
 			],
 			"footer_note": "Cena za sezení je konečná. Hradí se v hotovosti nebo převodem — vystavíme fakturu nebo příjmový doklad.<br>Termín je možné zrušit nebo přesunout nejpozději 24 hodin předem. Při pozdním zrušení nebo nedostavení se účtujeme plnou cenu sezení.<br>Nový termín poskytujeme až po úhradě případného dlužného sezení.",
@@ -273,10 +281,10 @@
 	],
 	"seo": {
 		"title": "SaFe – mezi námi — Odborná podpora v náročných životních situacích",
-		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie a workshopy. PhDr. Táňa Faltisová a Mgr. Michaela Skalová, Hodonín.",
+		"description": "Konzultace v bezpečném prostředí. Individuální podpora, psychoterapie, preventivní programy pro školy a workshopy. PhDr. Táňa Faltisová a Mgr. Michaela Skalová, Hodonín.",
 		"og": {
 			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
-			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce a rodiny. S lidským přístupem a dlouholetou praxí.",
+			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy. S lidským přístupem a dlouholetou praxí.",
 			"url": "https://safemezinami.cz/",
 			"type": "website",
 			"image": {
@@ -287,7 +295,7 @@
 		"twitter": {
 			"card": "summary_large_image",
 			"title": "SaFe – mezi námi — Bezpečný prostor pro vaši změnu",
-			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce a rodiny.",
+			"description": "Odborná podpora v náročných životních situacích — pro jednotlivce, rodiny i školy.",
 			"image": {
 				"src": "/assets/imgs/icon-256.png",
 				"alt": "SaFe – mezi námi"
